@@ -1,0 +1,94 @@
+---
+booktitle: Proceedings of the 30th Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2014'
+start: &1 2014-07-23
+end: 2014-07-27
+conference_number: '30'
+volume: R12
+published: 2026-10-04
+firstpublished: 2014-07-23
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2014
+month: 0
+cycles: false
+bibtex_editor: Zhang, Nevin L. and Tian, Jin
+editor:
+- given: Nevin L.
+  family: Zhang
+- given: Jin
+  family: Tian
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 30th Conference on Uncertainty in Artificial Intelligence
+    Held in Quebec City, Quebec, Canada on 23-27 July 2014
+
+  Published as Reissue 12 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Nevin L. Zhang
+    Jin Tian
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 23--27 Jul
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r12"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r12
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r12
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2014/
+  location: Quebec City, Quebec, Canada
+  dates:
+  - *1
+  - 2014-07-24
+  - 2014-07-25
+  - 2014-07-26
+  - 2014-07-27
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2014_clean.bib
+# Site settings
+# Original source:  uai2014_clean.bib
