@@ -6,7 +6,7 @@ abstract: In this paper we study a general version of regression where each cova
   us. For example, when each covariate is a distribution, then we might not be able
   to directly observe these distributions, but it can be assumed that i.i.d. sample
   sets from these distributions are available. In this paper we present a general
-  framework and a k- NN based estimator for this regression problem. We prove consistency
+  framework and a $k$-NN based estimator for this regression problem. We prove consistency
   of the estimator and derive its convergence rates. We further show that the proposed
   estimator can adapt to the local intrinsic dimension in our case and provide a simple
   approach for choosing k. Finally, we illustrate the applicability of our framework
