@@ -1,6 +1,6 @@
 ---
 abstract: The existing work on densification of one permutation hashing [24] reduces
-  the query processing cost of the (K, L)-parameterized Locality Sensitive Hashing
+  the query processing cost of the $(K, L)$-parameterized Locality Sensitive Hashing
   (LSH) algorithm with minwise hashing, from O(dKL) to merely O(d + KL), where d is
   the number of nonzeros of the data vector, $K$ is the number of hashes in each hash
   table, and L is the number of hash tables. While that is a substantial improvement,
