@@ -15,7 +15,7 @@ abstract: Van Seijen and Sutton (2014) recently proposed a new version of the li
   2011) which was derived from the same objective as our forward view but lacks the
   exact online equivalence. In the general theorem that allows us to derive this
   new algorithm, we encounter a new general eligibility-trace update.
-title: Off-policy TD($ł$) with a true online equivalence
+title: Off-policy TD(λ) with a true online equivalence
 year: '2014'
 layout: inproceedings
 series: Proceedings of Machine Learning Research
