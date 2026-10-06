@@ -1,16 +1,15 @@
 ---
 abstract: Binary matrices and tensors are popular data structures that need to be
-  efficiently approxi- mated by low-rank representations. A standard approach is to
-  minimize the logistic loss, well suited for binary data. In many cases, the num-
-  ber m of non-zero elements in the tensor is much smaller than the total number n
-  of possible en- tries in the tensor. This creates a problem for large tensors because
-  the computation of the lo- gistic loss has a linear time complexity with n. In this
+  efficiently approximated by low-rank representations. A standard approach is to
+  minimize the logistic loss, well suited for binary data. In many cases, the number m of non-zero elements in the tensor is much smaller than the total number n
+  of possible entries in the tensor. This creates a problem for large tensors because
+  the computation of the logistic loss has a linear time complexity with $n$. In this
   work, we show that an alternative approach is to minimize the quadratic loss (root
   mean square error) which leads to algorithms with a training time complexity that
   is reduced from O(n) to O(m), as proposed earlier in the restricted case of alternating
-  least-square algorithms. In addi- tion, we propose and study a greedy algorithm
+  least-square algorithms. In addition, we propose and study a greedy algorithm
   that partitions the tensor into smaller tensors, each approximated by a quadratic
-  upper bound. This technique provides a time-accuracy trade- off between a fast but
+  upper bound. This technique provides a time-accuracy tradeoff between a fast but
   approximate algorithm and an accurate but slow algorithm. We show that this technique
   leads to a considerable speedup in learning of real world tensors.
 title: Scalable Binary Tensor Factorization

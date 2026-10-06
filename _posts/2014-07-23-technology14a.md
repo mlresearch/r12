@@ -1,18 +1,17 @@
 ---
 abstract: Recent approaches to causal discovery based on Boolean satisfiability solvers
   have opened new opportunities to consider search spaces for causal models with both
-  feedback cycles and unmea- sured confounders. However, the available meth- ods have
-  so far not been able to provide a prin- cipled account of how to handle conflicting
-  con- straints that arise from statistical variability. Here we present a new approach
-  that preserves the ver- satility of Boolean constraint solving and attains a high
-  accuracy despite the presence of statisti- cal errors. We develop a new logical
+  feedback cycles and unmeasured confounders. However, the available methods have
+  so far not been able to provide a principled account of how to handle conflicting
+  constraints that arise from statistical variability. Here we present a new approach
+  that preserves the versatility of Boolean constraint solving and attains a high
+  accuracy despite the presence of statistical errors. We develop a new logical
   encoding of (in)dependence constraints that is both well suited for the domain and
-  allows for faster solv- ing. We represent this encoding in Answer Set Programming
-  (ASP), and apply a state-of-the- art ASP solver for the optimization task. Based
+  allows for faster solving. We represent this encoding in Answer Set Programming
+  (ASP), and apply a state-of-the-art ASP solver for the optimization task. Based
   on different theoretical motivations, we explore a variety of methods to handle
   statistical errors. Our approach currently scales to cyclic latent variable models
-  with up to seven observed vari- ables and outperforms the available constraint-
-  based methods in accuracy.
+  with up to seven observed variables and outperforms the available constraint-based methods in accuracy.
 title: 'Constraint-based Causal Discovery: Conflict Resolution with Answer Set Programming'
 year: '2014'
 layout: inproceedings

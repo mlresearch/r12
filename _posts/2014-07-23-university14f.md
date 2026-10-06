@@ -1,15 +1,15 @@
 ---
 abstract: 'We present a new algorithmic approach to the group fused lasso, a convex
-  model that approx- imates a multi-dimensional signal via an ap- proximately piecewise-constant
-  signal. This model has found many applications in mul- tiple change point detection,
-  signal compres- sion, and total variation denoising, though existing algorithms
+  model that approximates a multi-dimensional signal via an approximately piecewise-constant
+  signal. This model has found many applications in multiple change point detection,
+  signal compression, and total variation denoising, though existing algorithms
   typically using first-order or alternating minimization schemes. In this paper we
-  instead develop a specialized pro- jected Newton method, combined with a pri- mal
+  instead develop a specialized projected Newton method, combined with a primal
   active set approach, which we show to be substantially faster that existing methods.
   Furthermore, we present two applications that use this algorithm as a fast subroutine
   for a more complex outer loop: segmenting linear regression models for time series
   data, and color image denoising. We show that on these problems the proposed method
-  performs very well, solving the problems faster than state- of-the-art methods and
+  performs very well, solving the problems faster than state-of-the-art methods and
   to higher accuracy.'
 title: Fast Newton methods for the group fused lasso
 year: '2014'

@@ -1,14 +1,13 @@
 ---
-abstract: One of the most tedious tasks in the applica- tion of machine learning is
+abstract: One of the most tedious tasks in the application of machine learning is
   model selection, i.e. hyperparameter selection. Fortunately, recent progress has
-  been made in the automation of this process, through the use of sequential model-
-  based optimization (SMBO) methods. This can be used to optimize a cross-validation
-  perfor- mance of a learning algorithm over the value of its hyperparameters. However,
-  it is well known that ensembles of learned models almost consis- tently outperform
-  a single model, even if prop- erly selected. In this paper, we thus propose an extension
+  been made in the automation of this process, through the use of sequential model-based optimization (SMBO) methods. This can be used to optimize a cross-validation
+  performance of a learning algorithm over the value of its hyperparameters. However,
+  it is well known that ensembles of learned models almost consistently outperform
+  a single model, even if properly selected. In this paper, we thus propose an extension
   of SMBO methods that automatically constructs such ensembles. This method builds
   on a recently proposed ensemble construction paradigm known as Agnostic Bayesian
-  learning. In experiments on 22 regression and 39 classifi- cation data sets, we
+  learning. In experiments on 22 regression and 39 classification data sets, we
   confirm the success of this proposed approach, which is able to outperform model
   selection with SMBO.
 title: Sequential Model-Based Ensemble Optimization

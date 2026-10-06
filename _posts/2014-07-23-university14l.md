@@ -1,16 +1,15 @@
 ---
-abstract: The implication problem for saturated condi- tional independence statements
-  is studied in the presence of fixed and undetermined sets of in- complete random
-  variables. Here, random vari- ables are termed incomplete since they admit missing
-  data. Two different notions of implica- tion arise. In the classic notion of V -implication,
-  a statement is implied jointly by a set of state- ments and a fixed set V of random
+abstract: The implication problem for saturated conditional independence statements
+  is studied in the presence of fixed and undetermined sets of incomplete random
+  variables. Here, random variables are termed incomplete since they admit missing
+  data. Two different notions of implication arise. In the classic notion of V -implication,
+  a statement is implied jointly by a set of statements and a fixed set V of random
   variables. In the alternative notion of pure implication, a statement is implied
-  by a given set of state- ments alone, leaving the set of random vari- ables undetermined.
+  by a given set of statements alone, leaving the set of random variables undetermined.
   A first axiomatization for V -implication is established that distinguishes purely
-  implied from V -implied statements. Ax- iomatic, algorithmic and logical characteriza-
-  tions of pure implication are established. Pure implication appeals to applications
+  implied from V -implied statements. Axiomatic, algorithmic and logical characterizations of pure implication are established. Pure implication appeals to applications
   in which the existence of random variables is uncertain, for example, when independence
-  statements are in- tegrated from different sources, when random variables are unknown
+  statements are integrated from different sources, when random variables are unknown
   or shall remain hidden.
 title: Saturated Conditional Independence with Fixed and Undetermined Sets of Incomplete
   Random Variables

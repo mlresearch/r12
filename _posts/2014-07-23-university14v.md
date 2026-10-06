@@ -1,11 +1,11 @@
 ---
-abstract: Parallel predictive prefetching is a new frame- work for accelerating a
-  large class of widely- used Markov chain Monte Carlo (MCMC) algo- rithms. It speculatively
-  evaluates many potential steps of an MCMC chain in parallel while ex- ploiting fast,
-  iterative approximations to the tar- get density. This can accelerate sampling from
-  target distributions in Bayesian inference prob- lems. Our approach takes advantage
-  of whatever parallel resources are available, but produces re- sults exactly equivalent
-  to standard serial execu- tion. In the initial burn-in phase of chain evalu- ation,
+abstract: Parallel predictive prefetching is a new framework for accelerating a
+  large class of widelyused Markov chain Monte Carlo (MCMC) algorithms. It speculatively
+  evaluates many potential steps of an MCMC chain in parallel while exploiting fast,
+  iterative approximations to the target density. This can accelerate sampling from
+  target distributions in Bayesian inference problems. Our approach takes advantage
+  of whatever parallel resources are available, but produces results exactly equivalent
+  to standard serial execution. In the initial burn-in phase of chain evaluation,
   we achieve speedup close to linear in the number of available cores.
 title: Accelerating MCMC via Parallel Predictive Prefetching
 year: '2014'

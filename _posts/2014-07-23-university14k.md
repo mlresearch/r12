@@ -1,11 +1,11 @@
 ---
 abstract: The continuous time Bayesian network (CTBN) enables temporal reasoning by
-  rep- resenting a system as a factored, finite-state Markov process. The CTBN uses
-  a tra- ditional Bayesian network (BN) to specify the initial distribution. Thus,
-  the complex- ity results of Bayesian networks also apply to CTBNs through this initial
-  distribution. However, the question remains whether prop- agating the probabilities
+  representing a system as a factored, finite-state Markov process. The CTBN uses
+  a traditional Bayesian network (BN) to specify the initial distribution. Thus,
+  the complexity results of Bayesian networks also apply to CTBNs through this initial
+  distribution. However, the question remains whether propagating the probabilities
   through time is, by itself, also a hard problem. We show that exact and approximate
-  inference in continu- ous time Bayesian networks is NP-hard even when the initial
+  inference in continuous time Bayesian networks is NP-hard even when the initial
   states are given.
 title: Inference Complexity in Continuous Time Bayesian Networks
 year: '2014'

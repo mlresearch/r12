@@ -1,17 +1,15 @@
 ---
-abstract: The distance dependent Chinese restaurant pro- cess (ddCRP) provides a flexible
+abstract: The distance dependent Chinese restaurant process (ddCRP) provides a flexible
   framework for clustering data with temporal, spatial, or other structured dependencies.
-  Here we model mul- tiple groups of structured data, such as pixels within frames
-  of a video sequence, or paragraphs within documents from a text corpus. We pro-
-  pose a hierarchical generalization of the ddCRP which clusters data within groups
-  based on dis- tances between data items, and couples clusters across groups via
+  Here we model multiple groups of structured data, such as pixels within frames
+  of a video sequence, or paragraphs within documents from a text corpus. We propose a hierarchical generalization of the ddCRP which clusters data within groups
+  based on distances between data items, and couples clusters across groups via
   distances based on aggregate properties of these local clusters. Our hddCRP model
-  subsumes previously proposed hierarchi- cal extensions to the ddCRP, and allows
-  more flexibility in modeling complex data. This flexi- bility poses a challenging
-  inference problem, and we derive a MCMC method that makes coordi- nated changes
+  subsumes previously proposed hierarchical extensions to the ddCRP, and allows
+  more flexibility in modeling complex data. This flexibility poses a challenging
+  inference problem, and we derive a MCMC method that makes coordinated changes
   to data assignments both within and between local clusters. We demonstrate the effectiveness
-  of our hddCRP on video segmenta- tion and discourse modeling tasks, achieving re-
-  sults competitive with state-of-the-art methods.
+  of our hddCRP on video segmentation and discourse modeling tasks, achieving results competitive with state-of-the-art methods.
 title: Nonparametric Clustering with Distance Dependent Hierarchies
 year: '2014'
 layout: inproceedings

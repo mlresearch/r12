@@ -1,17 +1,17 @@
 ---
 abstract: We study the problem of a user who has both public and private data, and
-  wants to re- lease the public data, e.g. to a recommenda- tion service, yet simultaneously
-  wants to pro- tect his private data from being inferred via big data analytics.
-  This problem has previ- ously been formulated as a convex optimiza- tion problem
-  with linear constraints where the objective is to minimize the mutual in- formation
+  wants to release the public data, e.g. to a recommendation service, yet simultaneously
+  wants to protect his private data from being inferred via big data analytics.
+  This problem has previously been formulated as a convex optimization problem
+  with linear constraints where the objective is to minimize the mutual information
   between the private and released data. This attractive formulation faces a challenge
-  in practice because when the un- derlying alphabet of the user profile is large,
+  in practice because when the underlying alphabet of the user profile is large,
   there are too many potential ways to distort the original profile. We address this
-  funda- mental scalability challenge. We propose to generate sparse privacy-preserving
-  mappings by recasting the problem as a sequence of lin- ear programs and solving
-  each of these in- crementally using an adaptation of Dantzig- Wolfe decomposition.
-  We evaluate our ap- proach on several datasets and demonstrate that nearly optimal
-  privacy-preserving map- pings can be learned quickly even at scale.
+  fundamental scalability challenge. We propose to generate sparse privacy-preserving
+  mappings by recasting the problem as a sequence of linear programs and solving
+  each of these incrementally using an adaptation of Dantzig- Wolfe decomposition.
+  We evaluate our approach on several datasets and demonstrate that nearly optimal
+  privacy-preserving mappings can be learned quickly even at scale.
 title: 'SPPM: Sparse Privacy Preserving Mappings'
 year: '2014'
 layout: inproceedings

@@ -1,20 +1,19 @@
 ---
 abstract: The main shortcoming of sparse recovery with a convex regularizer is that
-  it is a biased esti- mator and therefore will result in a suboptimal performance
+  it is a biased estimator and therefore will result in a suboptimal performance
   in many cases. Recent studies have shown, both theoretically and empirically, that
   non-convex regularizer is able to overcome the biased estimation problem. Although
-  multiple algorithms have been developed for sparse recov- ery with non-convex regularization,
-  they are ei- ther computationally demanding or not equipped with the desired properties
+  multiple algorithms have been developed for sparse recovery with non-convex regularization,
+  they are either computationally demanding or not equipped with the desired properties
   (i.e. optimal recovery error, selection consistency and oracle property). In this
-  work, we develop an algorithm for effi- cient sparse recovery based on proximal
-  gradient descent. The key feature of the proposed algo- rithm is introducing adaptive
-  non-convex regu- larizers whose shrinking threshold vary over it- erations. The
-  algorithm is compatible with most popular non-convex regularizers, achieves a ge-
-  ometric convergence rate for the recovery er- ror, is selection consistent, and
+  work, we develop an algorithm for efficient sparse recovery based on proximal
+  gradient descent. The key feature of the proposed algorithm is introducing adaptive
+  non-convex regularizers whose shrinking threshold vary over iterations. The
+  algorithm is compatible with most popular non-convex regularizers, achieves a geometric convergence rate for the recovery error, is selection consistent, and
   most importantly has the oracle property. Based on the proposed framework, we suggest
   to use a so–called ACCQ regularizer, which is equivalent to zero proximal projection
-  gap adaptive hard-thresholding. Ex- periments with both synthetic data sets and
-  real images verify both the efficiency and effective- ness of the proposed method
+  gap adaptive hard-thresholding. Experiments with both synthetic data sets and
+  real images verify both the efficiency and effectiveness of the proposed method
   compared to the state-of-the-art methods for sparse recovery.
 title: Efficient Sparse Recovery via Adaptive Non-Convex Regularizers with Oracle
   Property

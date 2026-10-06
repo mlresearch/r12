@@ -1,14 +1,12 @@
 ---
-abstract: In this paper we develop a Hierarchi- cal Switching Linear Dynamical System
-  (HSLDS) for the detection of sepsis in neonates in an intensive care unit. The Fac-
-  torial Switching LDS (FSLDS) of Quinn et al. (2009) is able to describe the observed
+abstract: In this paper we develop a Hierarchical Switching Linear Dynamical System
+  (HSLDS) for the detection of sepsis in neonates in an intensive care unit. The Factorial Switching LDS (FSLDS) of Quinn et al. (2009) is able to describe the observed
   vital signs data in terms of a number of discrete factors, which have either physiological
-  or ar- tifactual origin. In this paper we demonstrate that by adding a higher-level
-  discrete variable with semantics sepsis/non-sepsis we can de- tect changes in the
+  or artifactual origin. In this paper we demonstrate that by adding a higher-level
+  discrete variable with semantics sepsis/non-sepsis we can detect changes in the
   physiological factors that signal the presence of sepsis. We demonstrate that the
-  performance of our model for the detection of sepsis is not statistically differ-
-  ent from the auto-regressive HMM of Stan- culescu et al. (2013), despite the fact
-  that their model is given “ground truth” annota- tions of the physiological factors,
+  performance of our model for the detection of sepsis is not statistically different from the auto-regressive HMM of Stanculescu et al. (2013), despite the fact
+  that their model is given “ground truth” annotations of the physiological factors,
   while our HSLDS must infer them from the raw vital signs data.
 title: A Hierarchical Switching Linear Dynamical System Applied to the Detection of
   Sepsis in Neonatal Condition Monitoring

@@ -1,17 +1,17 @@
 ---
 abstract: We consider the question of how unlabeled data can be used to estimate the
   true accuracy of learned classifiers. This is an important question for any autonomous
-  learning system that must es- timate its accuracy without supervision, and also
-  when classifiers trained from one data distribu- tion must be applied to a new distribution
+  learning system that must estimate its accuracy without supervision, and also
+  when classifiers trained from one data distribution must be applied to a new distribution
   (e.g., document classifiers trained on one text corpus are to be applied to a second
   corpus). We first show how to estimate error rates exactly from unlabeled data when
-  given a collection of com- peting classifiers that make independent errors, based
+  given a collection of competing classifiers that make independent errors, based
   on the agreement rates between subsets of these classifiers. We further show that
-  even when the competing classifiers do not make indepen- dent errors, both their
-  accuracies and error de- pendencies can be estimated by making certain relaxed assumptions.
+  even when the competing classifiers do not make independent errors, both their
+  accuracies and error dependencies can be estimated by making certain relaxed assumptions.
   Experiments on two data real-world data sets produce estimates within a few percent
-  of the true accuracy, using solely un- labeled data. These results are of practical
-  signif- icance in situations where labeled data is scarce and shed light on the
+  of the true accuracy, using solely unlabeled data. These results are of practical
+  significance in situations where labeled data is scarce and shed light on the
   more general question of how the consistency among multiple functions is related
   to their true accuracies.
 title: Estimating Accuracy from Unlabeled Data

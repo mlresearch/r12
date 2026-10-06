@@ -1,22 +1,21 @@
 ---
-abstract: In this paper, we present a novel probabilistic la- bel enhancement model
-  to tackle multi-label im- age classification problem. Recognizing multiple objects
+abstract: In this paper, we present a novel probabilistic label enhancement model
+  to tackle multi-label image classification problem. Recognizing multiple objects
   in images is a challenging problem due to label sparsity, appearance variations
-  of the ob- jects and occlusions. We propose to tackle these difficulties from a
-  novel perspective by construct- ing auxiliary labels in the output space. Our idea
-  is to exploit label combinations to enrich the la- bel space and improve the label
-  identification ca- pacity in the original label space. In particular, we identify
-  a set of informative label combina- tion pairs by constructing a tree-structured
+  of the objects and occlusions. We propose to tackle these difficulties from a
+  novel perspective by constructing auxiliary labels in the output space. Our idea
+  is to exploit label combinations to enrich the label space and improve the label
+  identification capacity in the original label space. In particular, we identify
+  a set of informative label combination pairs by constructing a tree-structured
   graph in the label space using the maximum spanning tree algorithm, which naturally
-  forms a condi- tional random field. We then use the produced label pairs as auxiliary
-  new labels to augment the original labels and perform piecewise train- ing under
+  forms a conditional random field. We then use the produced label pairs as auxiliary
+  new labels to augment the original labels and perform piecewise training under
   the framework of conditional random fields. In the test phase, max-product message
   passing is used to perform efficient inference on the tree graph, which integrates
   the augmented label pair classifiers and the standard individual binary classifiers
   for multi-label prediction. We evaluate the proposed approach on several image classification
-  datasets. The experimental results demonstrate the superiority of our label enhance-
-  ment model in terms of both prediction perfor- mance and running time comparing
-  to the-state- of-the-art multi-label learning methods.
+  datasets. The experimental results demonstrate the superiority of our label enhancement model in terms of both prediction performance and running time comparing
+  to the-state-of-the-art multi-label learning methods.
 title: Multi-label Image Classification with A Probabilistic Label Enhancement Model
 year: '2014'
 layout: inproceedings

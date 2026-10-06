@@ -1,16 +1,14 @@
 ---
 abstract: When belief propagation (BP) converges, it does so to a stationary point
-  of the Bethe free en- ergy F, and is often strikingly accurate. How- ever, it may
+  of the Bethe free energy F, and is often strikingly accurate. However, it may
   converge only to a local optimum or may not converge at all. An algorithm was recently
-  introduced by Weller and Jebara for at- tractive binary pairwise MRFs which is guaran-
-  teed to return an $\epsilon$-approximation to the global minimum of F in polynomial
+  introduced by Weller and Jebara for attractive binary pairwise MRFs which is guaranteed to return an $\epsilon$-approximation to the global minimum of F in polynomial
   time provided the maximum degree $\Delta$= O(log n), where n is the number of variables.
-  Here we extend their ap- proach and derive a new method based on an- alyzing first
-  derivatives of F, which leads to much better performance and, for attractive mod-
-  els, yields a fully polynomial-time approxima- tion scheme (FPTAS) without any degree
-  restric- tion. Further, our methods apply to general (non- attractive) models, though
+  Here we extend their approach and derive a new method based on analyzing first
+  derivatives of F, which leads to much better performance and, for attractive models, yields a fully polynomial-time approximation scheme (FPTAS) without any degree
+  restriction. Further, our methods apply to general (non-attractive) models, though
   with no polynomial time guarantee in this case, demonstrating that approximating
-  log of the Bethe partition func- tion, log ZB = -min F, for a general model to additive
+  log of the Bethe partition function, log ZB = -min F, for a general model to additive
   $\epsilon$-accuracy may be reduced to a discrete MAP inference problem. This allows
   the merits of the global Bethe optimum to be tested.
 title: Approximating the Bethe Partition Function

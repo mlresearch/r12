@@ -1,14 +1,14 @@
 ---
 abstract: We consider the problem of recovering sparse correlated data on networks.
-  To improve accu- racy and reduce costs, it is strongly desirable to take the potentially
-  useful side-information of network structure into consideration. In this pa- per
+  To improve accuracy and reduce costs, it is strongly desirable to take the potentially
+  useful side-information of network structure into consideration. In this paper
   we present a novel correlated compressive sensing method called CorrCS for networked
-  data. By naturally extending Bayesian compres- sive sensing, we extract correlations
-  from net- work topology and encode them into a graphical model as prior. Then we
-  derive posterior infer- ence algorithms for the recovery of jointly sparse and correlated
+  data. By naturally extending Bayesian compressive sensing, we extract correlations
+  from network topology and encode them into a graphical model as prior. Then we
+  derive posterior inference algorithms for the recovery of jointly sparse and correlated
   networked data. First, we design algorithms to recover the data based on pairwise
   correlations between neighboring nodes in the network. Next, we generalize this
-  model through a diffusion process to capture higher-order cor- relations. Both real-valued
+  model through a diffusion process to capture higher-order correlations. Both real-valued
   and binary data are considered. Our models are extensively tested on several real
   datasets from social and sensor networks and are shown to outperform baseline compressive
   sensing models in terms of recovery performance.

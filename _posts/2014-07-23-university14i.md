@@ -5,7 +5,7 @@ abstract: 'Belief propagation is a remarkably effective tool for inference, even
   perspective shows that, compared to exact inference, this minimization employs two
   forms of approximation: (i) the true entropy is approximated by the Bethe entropy,
   and (ii) the minimization is performed over a relaxation of the marginal polytope
-  termed the local polytope. Here we explore when and how the Bethe ap- proximation
+  termed the local polytope. Here we explore when and how the Bethe approximation
   can fail for binary pairwise models by examining each aspect of the approximation,
   deriving results both analytically and with new experimental methods.'
 title: 'Understanding the Bethe approximation: when and how can it go wrong?'

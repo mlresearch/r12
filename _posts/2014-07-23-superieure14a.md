@@ -1,15 +1,14 @@
 ---
-abstract: Bisimulation is a notion of behavioural equiva- lence on the states of a
-  transition system. Its defi- nition has been extended to Markov decision pro- cesses,
+abstract: Bisimulation is a notion of behavioural equivalence on the states of a
+  transition system. Its definition has been extended to Markov decision processes,
   where it can be used to aggregate states. A bisimulation metric is a quantitative
   analog of bisimulation that measures how similar states are from a the perspective
   of long-term behavior. Bisimulation metrics have been used to establish approximation
   bounds for state aggregation and other forms of value function approximation. In
   this paper, we prove that a bisimulation metric defined on the state space of a
-  Markov decision process is the optimal value function of an opti- mal coupling of
-  two copies of the original model. We prove the result in the general case of con-
-  tinuous state spaces. This result has important implications in understanding the
-  complexity of computing such metrics, and opens up the possi- bility of more efficient
+  Markov decision process is the optimal value function of an optimal coupling of
+  two copies of the original model. We prove the result in the general case of continuous state spaces. This result has important implications in understanding the
+  complexity of computing such metrics, and opens up the possibility of more efficient
   computational methods.
 title: Bisimulation Metrics are Optimal Value Functions
 year: '2014'

@@ -4,13 +4,13 @@ abstract: One of the common problems with clustering is that the generated clust
   framework that exploits supervised information in a discriminative and transferable
   manner to generate better clustering of unlabeled data. The supervision is provided
   by revealing the cluster assignments for some subset of the ground truth clusters
-  and is used to learn a trans- formation of the data such that labeled instances
+  and is used to learn a transformation of the data such that labeled instances
   form well-separated clusters with respect to the given clustering objective. This
-  estimated trans- formation function enables us to fold the remain- ing unlabeled
-  data into a space where new clus- ters hopefully match user expectations. While
-  our framework is general, in this paper, we fo- cus on its application to Gaussian
+  estimated transformation function enables us to fold the remaining unlabeled
+  data into a space where new clusters hopefully match user expectations. While
+  our framework is general, in this paper, we focus on its application to Gaussian
   and von Mises- Fisher mixture models. Extensive testing on 23 data sets across several
-  application domains re- vealed substantial improvement in performance over competing
+  application domains revealed substantial improvement in performance over competing
   methods.
 title: Transformation Based Probabilistic Clustering using Supervision
 year: '2014'

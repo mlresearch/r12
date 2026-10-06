@@ -1,15 +1,14 @@
 ---
 abstract: Open-universe probability models, representable by a variety of probabilistic
-  programming lan- guages (PPLs), handle uncertainty over the ex- istence and identity
-  of objects—forms of uncer- tainty occurring in many real-world situations. We examine
-  the problem of extending a declar- ative PPL to define decision problems (specifi-
-  cally, POMDPs) and identify non-trivial repre- sentational issues in describing
-  an agent’s ca- pability for observation and action—issues that were avoided in previous
+  programming languages (PPLs), handle uncertainty over the existence and identity
+  of objects—forms of uncertainty occurring in many real-world situations. We examine
+  the problem of extending a declarative PPL to define decision problems (specifically, POMDPs) and identify non-trivial representational issues in describing
+  an agent’s capability for observation and action—issues that were avoided in previous
   work only by making strong and restrictive assumptions. We present semantic definitions
-  that lead to POMDP speci- fications provably consistent with the sensor and actuator
-  capabilities of the agent. We also de- scribe a variant of point-based value iteration
-  for solving open-universe POMDPs. Thus, we han- dle cases—such as seeing a new object
-  and pick- ing it up—that could not previously be repre- sented or solved.
+  that lead to POMDP specifications provably consistent with the sensor and actuator
+  capabilities of the agent. We also describe a variant of point-based value iteration
+  for solving open-universe POMDPs. Thus, we handle cases—such as seeing a new object
+  and picking it up—that could not previously be represented or solved.
 title: 'First-Order Open-Universe POMDPs: Formulation and Algorithms'
 year: '2014'
 layout: inproceedings

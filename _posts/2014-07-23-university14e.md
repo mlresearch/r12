@@ -1,14 +1,14 @@
 ---
 abstract: Markov chain Monte Carlo (MCMC) is a popular and successful general-purpose
-  tool for Bayesian inference. However, MCMC cannot be practi- cally applied to large
+  tool for Bayesian inference. However, MCMC cannot be practically applied to large
   data sets because of the prohibitive cost of evaluating every likelihood term at
-  every iteration. Here we present Fire- fly Monte Carlo (FlyMC) an auxiliary variable
-  MCMC algorithm that only queries the likeli- hoods of a potentially small subset
-  of the data at each iteration yet simulates from the exact pos- terior distribution,
-  in contrast to recent propos- als that are approximate even in the asymptotic limit.
+  every iteration. Here we present Firefly Monte Carlo (FlyMC) an auxiliary variable
+  MCMC algorithm that only queries the likelihoods of a potentially small subset
+  of the data at each iteration yet simulates from the exact posterior distribution,
+  in contrast to recent proposals that are approximate even in the asymptotic limit.
   FlyMC is compatible with a wide variety of modern MCMC algorithms, and only requires
-  a lower bound on the per-datum likelihood fac- tors. In experiments, we find that
-  FlyMC gen- erates samples from the posterior more than an order of magnitude faster
+  a lower bound on the per-datum likelihood factors. In experiments, we find that
+  FlyMC generates samples from the posterior more than an order of magnitude faster
   than regular MCMC, opening up MCMC methods to larger datasets than were previously
   considered feasible.
 title: 'Firefly Monte Carlo: Exact MCMC with Subsets of Data'
