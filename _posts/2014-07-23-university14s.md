@@ -1,16 +1,16 @@
 ---
-abstract: The existing work on densification of one permu- tation hashing [24] reduces
-  the query processing cost of the (K, L)-parameterized Locality Sen- sitive Hashing
+abstract: The existing work on densification of one permutation hashing [24] reduces
+  the query processing cost of the (K, L)-parameterized Locality Sensitive Hashing
   (LSH) algorithm with minwise hashing, from O(dKL) to merely O(d + KL), where d is
   the number of nonzeros of the data vector, K is the number of hashes in each hash
   table, and L is the number of hash tables. While that is a substantial improvement,
-  our analy- sis reveals that the existing densification scheme in [24] is sub-optimal.
-  In particular, there is no enough randomness in that procedure, which af- fects
+  our analysis reveals that the existing densification scheme in [24] is sub-optimal.
+  In particular, there is no enough randomness in that procedure, which affects
   its accuracy on very sparse datasets. In this paper, we provide a new densification
-  pro- cedure which is provably better than the existing scheme [24]. This improvement
-  is more signifi- cant for very sparse datasets which are common over the web. The
+  procedure which is provably better than the existing scheme [24]. This improvement
+  is more significant for very sparse datasets which are common over the web. The
   improved technique has the same cost of O(d + KL) for query processing, thereby
-  making it strictly preferable over the ex- isting procedure. Experimental evaluations
+  making it strictly preferable over the existing procedure. Experimental evaluations
   on public datasets, in the task of hashing based near neighbor search, support our
   theoretical findings.
 title: Improved Densification of One Permutation Hashing

@@ -3,13 +3,13 @@ abstract: Recent work on Bayesian optimization has shown its effectiveness in gl
   optimization of difficult black-box objective functions. Many real-world optimization
   problems of interest also have constraints which are unknown a priori. In this paper,
   we study Bayesian optimization for constrained problems in the general case that
-  noise may be present in the constraint func- tions, and the objective and constraints
+  noise may be present in the constraint functions, and the objective and constraints
   may be evaluated independently. We provide motivating practical examples, and present
-  a general frame- work to solve such problems. We demonstrate the effectiveness of
-  our approach on optimizing the performance of online latent Dirichlet allo- cation
-  subject to topic sparsity constraints, tun- ing a neural network given test-time
+  a general framework to solve such problems. We demonstrate the effectiveness of
+  our approach on optimizing the performance of online latent Dirichlet allocation
+  subject to topic sparsity constraints, tuning a neural network given test-time
   memory constraints, and optimizing Hamiltonian Monte Carlo to achieve maximal effectiveness
-  in a fixed time, subject to passing standard convergence di- agnostics.
+  in a fixed time, subject to passing standard convergence diagnostics.
 title: Bayesian Optimization with Unknown Constraints
 year: '2014'
 layout: inproceedings

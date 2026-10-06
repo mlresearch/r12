@@ -4,7 +4,7 @@ abstract: 'We present new polynomial time algorithms for inference problems in B
   they have bounded treewidth and the conditional probability table (CPT) at each
   node is specified concisely using an r-symmetric function for some constant r. Our
   polynomial time algorithms work directly on the unmoralized graph. Our results significantly
-  ex- tend known results regarding inference problems on treewidth bounded BNs to
+  extend known results regarding inference problems on treewidth bounded BNs to
   a larger class of problem instances. We also show that relaxing either of the conditions
   used by our algorithms leads to computational intractability.'
 title: Bayesian Inference in Treewidth-Bounded Graphical Models Without Indegree Constraints

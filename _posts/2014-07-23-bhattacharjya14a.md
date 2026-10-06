@@ -1,13 +1,13 @@
 ---
-abstract: Even swaps is a method for solving de- terministic multi-attribute decision
-  problems where the decision maker iteratively simpli- fies the problem until the
-  optimal alterna- tive is revealed (Hammond et al. 1998, 1999). We present a new
+abstract: Even swaps is a method for solving deterministic multi-attribute decision
+  problems where the decision maker iteratively simplifies the problem until the
+  optimal alternative is revealed (Hammond et al. 1998, 1999). We present a new
   practical decision support system that takes a Bayesian approach to guiding the
   even swaps process, where the system makes queries based on its beliefs about the
-  decision maker’s preferences and updates them as the interactive process un- folds.
+  decision maker’s preferences and updates them as the interactive process unfolds.
   Through experiments, we show that it is possible to learn enough about the decision
   maker’s preferences to measurably reduce the cognitive burden, i.e. the number and
-  com- plexity of queries posed by the system.
+  complexity of queries posed by the system.
 title: Bayesian Interactive Decision Support for Multi-Attribute Problems with Even
   Swaps
 year: '2014'

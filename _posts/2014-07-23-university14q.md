@@ -1,13 +1,13 @@
 ---
-abstract: 'Out of the many potential factors that deter- mine which links form in
-  a document citation network, two in particular are of high impor- tance: first,
+abstract: 'Out of the many potential factors that determine which links form in
+  a document citation network, two in particular are of high importance: first,
   a document may be cited based on its subject matter—this can be modeled by analyzing
-  document content; second, a doc- ument may be cited based on which other documents
+  document content; second, a document may be cited based on which other documents
   have previously cited it—this can be modeled by analyzing citation structure. Both
   factors are important for users to make informed decisions and choose appropriate
-  ci- tations as the network grows. In this paper, we present a novel model that integrates
+  citations as the network grows. In this paper, we present a novel model that integrates
   the merits of content and citation analyses into a single probabilistic framework.
-  We demon- strate our model on three real-world citation networks. Compared with
+  We demonstrate our model on three real-world citation networks. Compared with
   existing baselines, our model can be used to effectively explore a citation network
   and provide meaningful explanations for links while still maintaining competitive
   citation prediction performance.'

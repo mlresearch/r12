@@ -1,12 +1,12 @@
 ---
-abstract: In this paper we study a general version of re- gression where each covariate
-  itself is a func- tional data such as distributions or functions. In real applications,
+abstract: In this paper we study a general version of regression where each covariate
+  itself is a functional data such as distributions or functions. In real applications,
   however, typically we do not have direct access to such data; instead only some
-  noisy estimates of the true co- variate functions/distributions are available to
+  noisy estimates of the true covariate functions/distributions are available to
   us. For example, when each covariate is a distribution, then we might not be able
   to directly observe these distributions, but it can be assumed that i.i.d. sample
-  sets from these distributions are available. In this pa- per we present a general
-  framework and a k- NN based estimator for this regression prob- lem. We prove consistency
+  sets from these distributions are available. In this paper we present a general
+  framework and a k- NN based estimator for this regression problem. We prove consistency
   of the estimator and derive its convergence rates. We further show that the proposed
   estimator can adapt to the local intrinsic dimension in our case and provide a simple
   approach for choosing k. Finally, we illustrate the applicability of our framework

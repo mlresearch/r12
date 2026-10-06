@@ -1,14 +1,14 @@
 ---
-abstract: Many objects can be represented as sets of multi- dimensional points. A
+abstract: Many objects can be represented as sets of multi-dimensional points. A
   common approach to learning from these point sets is to assume that each set is
-  an i.i.d. sample from an unknown un- derlying distribution, and then estimate the
-  sim- ilarities between these distributions. In realistic situations, however, the
-  point sets are often sub- ject to sampling biases due to variable or incon- sistent
-  observation actions. These biases can fun- damentally change the observed distributions
+  an i.i.d. sample from an unknown underlying distribution, and then estimate the
+  similarities between these distributions. In realistic situations, however, the
+  point sets are often subject to sampling biases due to variable or inconsistent
+  observation actions. These biases can fundamentally change the observed distributions
   of points and distort the results of learning. In this paper we propose the use
-  of conditional diver- gences to correct these distortions and learn from biased
+  of conditional divergences to correct these distortions and learn from biased
   point sets effectively. Our empirical study shows that the proposed method can successfully
-  correct the biases and achieve satisfactory learn- ing performance.
+  correct the biases and achieve satisfactory learning performance.
 title: Learning from Point Sets with Observational Bias
 year: '2014'
 layout: inproceedings

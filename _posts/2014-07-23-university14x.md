@@ -1,13 +1,11 @@
 ---
-abstract: The term “CoRE kernel” stands for correlation- resemblance kernel. In many
-  real-world applica- tions (e.g., computer vision), the data are often high-dimensional,
+abstract: The term “CoRE kernel” stands for correlationresemblance kernel. In many
+  real-world applications (e.g., computer vision), the data are often high-dimensional,
   sparse, and non-binary. We propose two types of (nonlinear) CoRE kernels for non-binary
-  sparse data and demonstrate the effectiveness of the new kernels through a clas-
-  sification experiment. CoRE kernels are sim- ple with no tuning parameters. However,
-  train- ing nonlinear kernel SVM can be costly in time and memory and may not be
+  sparse data and demonstrate the effectiveness of the new kernels through a classification experiment. CoRE kernels are simple with no tuning parameters. However,
+  training nonlinear kernel SVM can be costly in time and memory and may not be
   always suitable for truly large-scale industrial applications (e.g., search). In
-  order to make the proposed CoRE kernels more practical, we develop basic proba-
-  bilistic hashing (approximate) algorithms which transform nonlinear kernels into
+  order to make the proposed CoRE kernels more practical, we develop basic probabilistic hashing (approximate) algorithms which transform nonlinear kernels into
   linear kernels.
 title: CoRE Kernels
 year: '2014'
