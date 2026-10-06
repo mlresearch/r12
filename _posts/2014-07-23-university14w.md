@@ -3,7 +3,7 @@ abstract: Binary matrices and tensors are popular data structures that need to b
   efficiently approximated by low-rank representations. A standard approach is to
   minimize the logistic loss, well suited for binary data. In many cases, the number m of non-zero elements in the tensor is much smaller than the total number n
   of possible entries in the tensor. This creates a problem for large tensors because
-  the computation of the logistic loss has a linear time complexity with n. In this
+  the computation of the logistic loss has a linear time complexity with $n$. In this
   work, we show that an alternative approach is to minimize the quadratic loss (root
   mean square error) which leads to algorithms with a training time complexity that
   is reduced from O(n) to O(m), as proposed earlier in the restricted case of alternating
