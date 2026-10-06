@@ -6,7 +6,7 @@ abstract: When belief propagation (BP) converges, it does so to a stationary poi
   time provided the maximum degree $\Delta$= O(log n), where n is the number of variables.
   Here we extend their approach and derive a new method based on analyzing first
   derivatives of F, which leads to much better performance and, for attractive models, yields a fully polynomial-time approximation scheme (FPTAS) without any degree
-  restriction. Further, our methods apply to general (nonattractive) models, though
+  restriction. Further, our methods apply to general (non-attractive) models, though
   with no polynomial time guarantee in this case, demonstrating that approximating
   log of the Bethe partition function, log ZB = -min F, for a general model to additive
   $\epsilon$-accuracy may be reduced to a discrete MAP inference problem. This allows
