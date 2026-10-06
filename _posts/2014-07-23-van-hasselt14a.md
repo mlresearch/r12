@@ -23,7 +23,7 @@ publisher: PMLR
 issn: 2640-3498
 id: van-hasselt14a
 month: 0
-tex_title: Off-policy {TD}($ł$) with a true online equivalence
+tex_title: Off-policy {TD}($\lambda$) with a true online equivalence
 firstpage: 882
 lastpage: 891
 page: 882-891
