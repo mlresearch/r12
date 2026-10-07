@@ -2,7 +2,7 @@
 booktitle: Proceedings of the 30th Conference on Uncertainty in Artificial Intelligence
 shortname: UAI
 year: '2014'
-start: &1 2014-07-23
+start: 2014-07-23
 end: 2014-07-27
 conference_number: '30'
 volume: R12
@@ -72,7 +72,7 @@ conference:
   url: https://www.auai.org/uai2014/
   location: Quebec City, Quebec, Canada
   dates:
-  - *1
+  - 2014-07-23
   - 2014-07-24
   - 2014-07-25
   - 2014-07-26
